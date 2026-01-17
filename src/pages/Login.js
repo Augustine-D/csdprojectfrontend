@@ -64,7 +64,6 @@ const Login = () => {
 
         <form onSubmit={handleLogin}>
           <div className="mb-3">
-            <label className="form-label">Phone Number</label>
             <input
               type="text"
               className="form-control"
@@ -76,7 +75,6 @@ const Login = () => {
           </div>
 
           <div className="mb-3">
-            <label className="form-label">Password</label>
             <input
               type="password"
               className="form-control"
