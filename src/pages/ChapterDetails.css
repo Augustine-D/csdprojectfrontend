@@ -1,0 +1,20 @@
+.chapter-details-container {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.chapter-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 24px;
+}
+
+.comment-form {
+  background: #fff;
+  border-radius: 10px;
+}
+
+.submission-card {
+  background: #fff;
+  border-radius: 10px;
+}

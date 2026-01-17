@@ -1,0 +1,45 @@
+/* src/layouts/LeaderLayout.css */
+.leader-layout {
+  display: flex;
+  height: 100vh; /* Ensure the layout fills the entire viewport height */
+  flex-direction: row;
+}
+
+.sidebar {
+  width: 240px; /* Sidebar fixed width */
+  background-color: #f8f9fa;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  height: 100vh; /* Ensure the sidebar takes full height */
+}
+
+.content-area {
+  flex-grow: 1; /* This ensures the content fills remaining space */
+  padding: 20px;
+  overflow-y: auto; /* Allows scrolling if content overflows */
+  background-color: #ffffff;
+  margin-left: 240px; /* Ensure content area doesn't overlap with sidebar */
+}
+
+.header-bar {
+  background: #ffffff;
+  padding: 15px 20px;
+  border-bottom: 1px solid #d1d5db;
+}
+
+.nav-link {
+  padding: 12px 20px;
+  font-size: 15px;
+  color: #495057;
+}
+
+.nav-link.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.page-content-area {
+  padding: 20px;
+}

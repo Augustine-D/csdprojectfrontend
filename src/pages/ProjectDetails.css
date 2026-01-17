@@ -1,0 +1,92 @@
+.project-details-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.project-header-card {
+  background: white;
+  border-radius: 18px;
+  padding: 35px;
+  margin-bottom: 30px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.project-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #111;
+}
+
+.project-subtext {
+  color: #6b7280;
+  font-size: 1rem;
+}
+
+.section-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.chapters-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.chapter-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 18px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+
+.chapter-title {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #111;
+  text-decoration: none;
+}
+
+.chapter-title:hover {
+  color: #007aff;
+}
+
+.chapter-status.open {
+  background: #e9fce9;
+  color: #027a32;
+}
+
+.chapter-status.closed {
+  background: #f3f4f6;
+  color: #6b7280;
+}
+
+.chapter-status {
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  margin-left: 10px;
+}
+
+.chapter-toggle-btn {
+  background: #111;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.chapter-toggle-btn:hover {
+  opacity: 0.85;
+}
