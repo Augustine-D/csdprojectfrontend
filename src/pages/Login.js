@@ -57,8 +57,7 @@ const Login = () => {
             alt="TTU Logo"
             style={{ width: "80px", marginBottom: "10px" }}
           />
-          <h4 className="fw-bold text-primary">TTU Project Portal</h4>
-          <p className="text-muted small">Student Project Management System</p>
+          <h4 className="fw-bold text-primary"> CS PROJECT WORK HUB</h4>
         </div>
 
         {error && <div className="alert alert-danger">{error}</div>}
